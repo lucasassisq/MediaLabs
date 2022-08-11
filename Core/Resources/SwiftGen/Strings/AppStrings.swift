@@ -9,24 +9,14 @@ import Foundation
 
 // swiftlint:disable function_parameter_count identifier_name line_length type_body_length
 public enum AppStrings {
-  /// Cancel
-  public static let cancel = AppStrings.tr("Localizable", "cancel")
-  /// Please, choose your user to go forward!
-  public static let chooseUserTitle = AppStrings.tr("Localizable", "chooseUserTitle")
-  /// Feed
-  public static let feedTitle = AppStrings.tr("Localizable", "feedTitle")
   /// Something wrong happened.
   public static let genericErrorMessage = AppStrings.tr("Localizable", "genericErrorMessage")
-  /// Say my name. We haven't any post yet.
-  public static let noPostsYet = AppStrings.tr("Localizable", "noPostsYet")
-  /// Posterr
-  public static let posterr = AppStrings.tr("Localizable", "posterr")
-  /// Maybe will be better caul Saul!
-  public static let posterrIt = AppStrings.tr("Localizable", "posterrIt")
-  /// Profile
-  public static let profileTitle = AppStrings.tr("Localizable", "profileTitle")
-  /// 777
-  public static let totalCharacters = AppStrings.tr("Localizable", "totalCharacters")
+  /// High: 
+  public static let highTemp = AppStrings.tr("Localizable", "highTemp")
+  /// Low: 
+  public static let lowTemp = AppStrings.tr("Localizable", "lowTemp")
+  /// Wind: 
+  public static let wind = AppStrings.tr("Localizable", "wind")
 }
 // swiftlint:enable function_parameter_count identifier_name line_length type_body_length
 

@@ -9,12 +9,12 @@ def shared_pods
   pod 'RxGesture'
 end
 
-target 'BaseApplication' do
+target 'MediaLabs' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
   shared_pods
   pod 'SwiftLint'
-  # Pods for BaseApplication
+  # Pods for MediaLabs
 
 end
 

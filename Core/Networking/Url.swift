@@ -7,7 +7,8 @@ public class Url {
     // MARK: - Public variables
     
     public static let shared = Url()
-    public var baseUrl = "https://breakingbadapi.com/api/" // Url base api
+    public var baseUrl = "https://api.openweathermap.org/data/2.5/" // Url base api
+    public let appId = "d4277b87ee5c71a468ec0c3dc311a724"
 }
 
 public extension Url {

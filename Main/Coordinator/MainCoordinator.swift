@@ -32,8 +32,8 @@ extension MainCoordinator {
 
         // MARK: - Initialize here your ViewController
 
-        let viewModel = ConfigEnvironmentViewModel(coordinator: self)
-        let viewController = ConfigEnvironmentViewController(viewModel: viewModel)
+        let viewModel = WeatherViewModel(coordinator: self)
+        let viewController = WeatherViewController(viewModel: viewModel)
         navigationController.pushViewController(viewController, animated: false)
     }
 
