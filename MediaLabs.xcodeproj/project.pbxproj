@@ -56,7 +56,6 @@
 		A07F3CF5288792190061F112 /* UILabel+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07F3CD9288792180061F112 /* UILabel+Extension.swift */; };
 		A07F3CF6288792190061F112 /* URL+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07F3CDA288792180061F112 /* URL+Extension.swift */; };
 		A07F3CF7288792190061F112 /* StringProtocol+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07F3CDB288792180061F112 /* StringProtocol+Extension.swift */; };
-		A07F3CF8288792190061F112 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07F3CDC288792180061F112 /* UIViewController+Extension.swift */; };
 		A07F3CF9288792190061F112 /* UserDefaults+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07F3CDD288792180061F112 /* UserDefaults+Extension.swift */; };
 		A07F3CFA288792190061F112 /* UIScrollView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07F3CDE288792180061F112 /* UIScrollView+Extension.swift */; };
 		A07F3CFC288792190061F112 /* NSLayoutXAxisAnchor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07F3CE0288792180061F112 /* NSLayoutXAxisAnchor+Extension.swift */; };
@@ -76,7 +75,6 @@
 		A0ECE66E2887945D00AFA923 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07F3D06288793FE0061F112 /* AppCoordinator.swift */; };
 		A0ECE671288794DC00AFA923 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0ECE670288794DC00AFA923 /* ViewController.swift */; };
 		A0ECE673288796DB00AFA923 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0ECE672288796DB00AFA923 /* View.swift */; };
-		A0ECE6772887974100AFA923 /* AppNavBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0ECE6762887974100AFA923 /* AppNavBarView.swift */; };
 		A0ECE67B2887977700AFA923 /* AppBorderLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0ECE6792887977700AFA923 /* AppBorderLabel.swift */; };
 		A0ECE67C2887977700AFA923 /* AppLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0ECE67A2887977700AFA923 /* AppLabel.swift */; };
 		A0ECE67F28879BC900AFA923 /* AppNavBarType.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0ECE67E28879BC900AFA923 /* AppNavBarType.swift */; };
@@ -188,7 +186,6 @@
 		A07F3CD9288792180061F112 /* UILabel+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILabel+Extension.swift"; sourceTree = "<group>"; };
 		A07F3CDA288792180061F112 /* URL+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "URL+Extension.swift"; sourceTree = "<group>"; };
 		A07F3CDB288792180061F112 /* StringProtocol+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "StringProtocol+Extension.swift"; sourceTree = "<group>"; };
-		A07F3CDC288792180061F112 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
 		A07F3CDD288792180061F112 /* UserDefaults+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UserDefaults+Extension.swift"; sourceTree = "<group>"; };
 		A07F3CDE288792180061F112 /* UIScrollView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIScrollView+Extension.swift"; sourceTree = "<group>"; };
 		A07F3CE0288792180061F112 /* NSLayoutXAxisAnchor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSLayoutXAxisAnchor+Extension.swift"; sourceTree = "<group>"; };
@@ -209,7 +206,6 @@
 		A0B44290ADFEEA5543898518 /* Pods_Core.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Core.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0ECE670288794DC00AFA923 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A0ECE672288796DB00AFA923 /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
-		A0ECE6762887974100AFA923 /* AppNavBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppNavBarView.swift; sourceTree = "<group>"; };
 		A0ECE6792887977700AFA923 /* AppBorderLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppBorderLabel.swift; sourceTree = "<group>"; };
 		A0ECE67A2887977700AFA923 /* AppLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppLabel.swift; sourceTree = "<group>"; };
 		A0ECE67E28879BC900AFA923 /* AppNavBarType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppNavBarType.swift; sourceTree = "<group>"; };
@@ -347,7 +343,6 @@
 				A07F3CCE288792180061F112 /* UIStackView+Extension.swift */,
 				A07F3CE7288792190061F112 /* UITextView+Extension.swift */,
 				A07F3CD8288792180061F112 /* UIView+Extension.swift */,
-				A07F3CDC288792180061F112 /* UIViewController+Extension.swift */,
 				A07F3CD5288792180061F112 /* UIWindow+Extension.swift */,
 				A07F3CDA288792180061F112 /* URL+Extension.swift */,
 				A07F3CDD288792180061F112 /* UserDefaults+Extension.swift */,
@@ -531,17 +526,8 @@
 				A0ECE6A72888EAB100AFA923 /* TableView */,
 				A0ECE68028879E2000AFA923 /* TextField */,
 				A0ECE6782887977700AFA923 /* Label */,
-				A0ECE6752887973500AFA923 /* Navigation */,
 			);
 			path = Components;
-			sourceTree = "<group>";
-		};
-		A0ECE6752887973500AFA923 /* Navigation */ = {
-			isa = PBXGroup;
-			children = (
-				A0ECE6762887974100AFA923 /* AppNavBarView.swift */,
-			);
-			path = Navigation;
 			sourceTree = "<group>";
 		};
 		A0ECE6782887977700AFA923 /* Label */ = {
@@ -929,7 +915,6 @@
 				A07F3D02288792190061F112 /* UIScreen+Extension.swift in Sources */,
 				A0ECE68228879E2D00AFA923 /* AppTextField.swift in Sources */,
 				A07F3CEE288792190061F112 /* Date+Extension.swift in Sources */,
-				A0ECE6772887974100AFA923 /* AppNavBarView.swift in Sources */,
 				A0ECE68A28879F3B00AFA923 /* ServiceManager.swift in Sources */,
 				A07F3CEA288792190061F112 /* UIStackView+Extension.swift in Sources */,
 				A07F3D04288792190061F112 /* Double+Extension.swift in Sources */,
@@ -962,7 +947,6 @@
 				A07F3C93288747260061F112 /* Assets.swift in Sources */,
 				A07F3CF3288792190061F112 /* NSLayoutYAxisAnchor+Extension.swift in Sources */,
 				A07F3D03288792190061F112 /* UITextView+Extension.swift in Sources */,
-				A07F3CF8288792190061F112 /* UIViewController+Extension.swift in Sources */,
 				A07F3CF7288792190061F112 /* StringProtocol+Extension.swift in Sources */,
 				A07F3C92288747260061F112 /* Colors.swift in Sources */,
 				A0ECE67C2887977700AFA923 /* AppLabel.swift in Sources */,

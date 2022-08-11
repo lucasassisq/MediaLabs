@@ -1,23 +1,11 @@
 PODS:
   - Alamofire (5.4.1)
-  - RxCocoa (6.1.0):
-    - RxRelay (= 6.1.0)
-    - RxSwift (= 6.1.0)
-  - RxGesture (4.0.4):
-    - RxCocoa (~> 6.0)
-    - RxSwift (~> 6.0)
-  - RxRelay (6.1.0):
-    - RxSwift (= 6.1.0)
-  - RxSwift (6.1.0)
   - SkyFloatingLabelTextField (4.0.0)
   - SwiftGen (6.5.1)
   - SwiftLint (0.47.1)
 
 DEPENDENCIES:
   - Alamofire
-  - RxCocoa
-  - RxGesture
-  - RxSwift
   - SkyFloatingLabelTextField
   - SwiftGen
   - SwiftLint
@@ -25,24 +13,16 @@ DEPENDENCIES:
 SPEC REPOS:
   trunk:
     - Alamofire
-    - RxCocoa
-    - RxGesture
-    - RxRelay
-    - RxSwift
     - SkyFloatingLabelTextField
     - SwiftGen
     - SwiftLint
 
 SPEC CHECKSUMS:
   Alamofire: 2291f7d21ca607c491dd17642e5d40fdcda0e65c
-  RxCocoa: 5c51f02d562cbd94629f6c26cf0c80fe4ab8d343
-  RxGesture: f3efb47ed2d26a8082f7b660d4a59970e275a7f8
-  RxRelay: 483e1a19fad961b41f0b0c0bee506f46c1ae14fe
-  RxSwift: a834e5c538e89eca0cae86f403f4fbf0336786ce
   SkyFloatingLabelTextField: 79ddc40e4ad59707fedbb48d605417aee48bb78a
   SwiftGen: a6d22010845f08fe18fbdf3a07a8e380fd22e0ea
   SwiftLint: f80f1be7fa96d30e0aa68e58d45d4ea1ccaac519
 
-PODFILE CHECKSUM: f75fe0692ad4767c2b3b73d29295e8d96d98eae0
+PODFILE CHECKSUM: 3f7b62318bb6d4b5177a9bb6945a2a2d8e3e8ba8
 
 COCOAPODS: 1.11.3

@@ -1,4 +1,3 @@
-import RxSwift
 import SkyFloatingLabelTextField
 
 // MARK: - Class
@@ -6,8 +5,6 @@ import SkyFloatingLabelTextField
 final public class AppTextField: SkyFloatingLabelTextField {
     
     // MARK: - Initializers
-    
-    let disposeBag = DisposeBag()
     
     public var maxLenght = -1
     
@@ -38,33 +35,10 @@ final public class AppTextField: SkyFloatingLabelTextField {
         if let type = type {
             keyboardType = type
         }
-        
-        setupRx()
     }
     
     public required init?(coder _: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
-    
-    func setupRx() {
-        rx
-        .controlEvent([.editingChanged])
-        .asObservable()
-        .subscribe(onNext: { [weak self] in
-            guard let self = self else { return }
-            if(self.maxLenght != -1) {
-                self.verifyLength()
-            }            
-        }).disposed(by: disposeBag)
-    }
-    
-    private func verifyLength() {
-        if let text = self.text, text.count > maxLenght {
-            self.text = String(text.dropLast(text.count - maxLenght))
-            resignFirstResponder()
-            return
-        } else if let text = self.text, text.count == maxLenght {
-            resignFirstResponder()
-        }
-    }
+
 }

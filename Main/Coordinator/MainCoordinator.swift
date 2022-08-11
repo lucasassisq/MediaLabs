@@ -23,12 +23,12 @@ extension MainCoordinator {
     // MARK: Public methods
 
     public func start() {
-        startConfigScreen()
+        startWeatherScreen()
     }
 
     // MARK: - Private methods
 
-    private func startConfigScreen() {
+    private func startWeatherScreen() {
 
         // MARK: - Initialize here your ViewController
 

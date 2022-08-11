@@ -4,9 +4,6 @@
 def shared_pods
   use_frameworks!
   pod 'Alamofire'
-  pod 'RxSwift'
-  pod 'RxCocoa'
-  pod 'RxGesture'
 end
 
 target 'MediaLabs' do
