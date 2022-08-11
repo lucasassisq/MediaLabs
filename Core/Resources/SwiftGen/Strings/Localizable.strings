@@ -1,0 +1,24 @@
+// MARK: - ConfigEnvironmentView
+
+"chooseUserTitle" = "Please, choose your user to go forward!";
+
+// MARK: - HomeFeedView
+
+"noPostsYet" = "Say my name. We haven't any post yet.";
+"feedTitle" = "Feed";
+
+// MARK: - NewPostView
+
+"cancel" = "Cancel";
+"totalCharacters" = "777";
+"posterr" = "Posterr";
+"posterrIt" = "Maybe will be better caul Saul!";
+
+// MARK: - Profile View
+
+"profileTitle" = "Profile";
+
+// MARK: - General errors
+
+"genericErrorMessage" = "Something wrong happened.";
+

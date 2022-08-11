@@ -1,0 +1,32 @@
+fonts:
+- inputs: Core/Resources/Fonts/OpenSans
+  filter: .+\.ttf$
+  outputs:
+    templateName: swift4
+    output: Core/Resources/SwiftGen/Fonts/FontFamily.swift
+    params:
+      publicAccess: true
+colors:
+ - inputs: Core/Resources/Colors/colors.txt
+   outputs:
+     templateName: swift4
+     output: Core/Resources/SwiftGen/Colors/Colors.swift
+     params:
+       publicAccess: true
+       enumName: Colors
+xcassets:
+- inputs: Core/Resources/Assets.xcassets
+  outputs:
+    templateName: swift4
+    output: Core/Resources/SwiftGen/Assets/Assets.swift
+    params:
+      publicAccess: true
+      enumName: Assets
+strings:
+- inputs: Core/Resources/SwiftGen/Strings/Localizable.strings
+  outputs:
+    templateName: flat-swift5
+    output: Core/Resources/SwiftGen/Strings/AppStrings.swift
+    params:
+       publicAccess: true
+       enumName: AppStrings
